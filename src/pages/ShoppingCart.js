@@ -2,14 +2,14 @@ import React from 'react';
 
 import PageContainer from '../components/PageContainer';
 
-const Home = () => {
+const ShoppingCart = () => {
   return (
     <PageContainer>
       <div className='ui container aligned center'>
-        home
+        Shopping Cart
       </div>
     </PageContainer>
   )
 }
 
-export default Home;
+export default ShoppingCart;
