@@ -1,14 +1,14 @@
 import React from 'react';
 
 import PageContainer from '../components/PageContainer';
+import ProductList from '../components/ProductList';
 
 const Store = () => {
   return (
     <PageContainer>
-			<div className='ui container aligned center'>
-				store
-			</div>
-	</PageContainer>
+      <ProductList/>
+		</PageContainer>
+    
   )
 }
 
